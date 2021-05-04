@@ -1,1 +1,1 @@
-web: ocr_receipt:app.py
+web: ocr_receipt/app.py
