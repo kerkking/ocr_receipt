@@ -1,2 +1,1 @@
-web: gunicorn ocr_receipt:app
-
+web: gunicorn -w 1 -k uvicorn.workers.UvicornWorker ocr_receipt:app
